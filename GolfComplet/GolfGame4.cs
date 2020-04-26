@@ -204,105 +204,105 @@ public class GolfGame4 : Form
     //  Create TextBox objects to display the inputs.
     vxTextBox = new TextBox();
     vxTextBox.Width = 50;
-    vxTextBox.Text = "31.0";
+    vxTextBox.Text = String.Format("{0}", 31.0m);
     vxTextBox.AutoSize = true;
     vxTextBox.Top = vxLabel.Top;
     vxTextBox.Left = 150;
 
     vyTextBox = new TextBox();
     vyTextBox.Width = 50;
-    vyTextBox.Text = "0.0";
+    vyTextBox.Text = String.Format("{0}", 0.0m);
     vyTextBox.AutoSize = true;
     vyTextBox.Top = vyLabel.Top;
     vyTextBox.Left = 150;
 
     vzTextBox = new TextBox();
     vzTextBox.Width = 50;
-    vzTextBox.Text = "35.0";
+    vzTextBox.Text = String.Format("{0}", 35.0m);
     vzTextBox.AutoSize = true;
     vzTextBox.Top = vzLabel.Top;
     vzTextBox.Left = 150;
 
     distanceTextBox = new TextBox();
     distanceTextBox.Width = 50;
-    distanceTextBox.Text = "200.0";
+    distanceTextBox.Text = String.Format("{0}", 200.0m);
     distanceTextBox.AutoSize = true;
     distanceTextBox.Top = distanceLabel.Top;
     distanceTextBox.Left = 150;
 
     massTextBox = new TextBox();
     massTextBox.Width = 60;
-    massTextBox.Text = "0.0459";
+    massTextBox.Text = String.Format("{0}", 0.0459);
     massTextBox.AutoSize = true;
     massTextBox.Top = massLabel.Top;
     massTextBox.Left = 330;
 
     areaTextBox = new TextBox();
     areaTextBox.Width = 60;
-    areaTextBox.Text = "0.001432";
+    areaTextBox.Text = String.Format("{0}", 0.001432);
     areaTextBox.AutoSize = true;
     areaTextBox.Top = areaLabel.Top;
     areaTextBox.Left = 330;
 
     cdTextBox = new TextBox();
     cdTextBox.Width = 60;
-    cdTextBox.Text = "0.25";
+    cdTextBox.Text = String.Format("{0}", 0.25);
     cdTextBox.AutoSize = true;
     cdTextBox.Top = cdLabel.Top;
     cdTextBox.Left = 330;
 
     densityTextBox = new TextBox();
     densityTextBox.Width = 60;
-    densityTextBox.Text = "1.225";
+    densityTextBox.Text = String.Format("{0}", 1.225);
     densityTextBox.AutoSize = true;
     densityTextBox.Top = densityLabel.Top;
     densityTextBox.Left = 330;
 
     windVxTextBox = new TextBox();
     windVxTextBox.Width = 50;
-    windVxTextBox.Text = "10.0";
+    windVxTextBox.Text = String.Format("{0}", 10.0);
     windVxTextBox.AutoSize = true;
     windVxTextBox.Top = windVxLabel.Top;
     windVxTextBox.Left = 330;
 
     windVyTextBox = new TextBox();
     windVyTextBox.Width = 50;
-    windVyTextBox.Text = "0.0";
+    windVyTextBox.Text = String.Format("{0}", 0.0m);
     windVyTextBox.AutoSize = true;
     windVyTextBox.Top = windVyLabel.Top;
     windVyTextBox.Left = 330;
 
     omegaTextBox = new TextBox();
     omegaTextBox.Width = 60;
-    omegaTextBox.Text = "300.0";
+    omegaTextBox.Text = String.Format("{0}", 300.0);
     omegaTextBox.AutoSize = true;
     omegaTextBox.Top = omegaLabel.Top;
     omegaTextBox.Left = 530;
 
     radiusTextBox = new TextBox();
     radiusTextBox.Width = 60;
-    radiusTextBox.Text = "0.02135";
+    radiusTextBox.Text = String.Format("{0}", 0.02135);
     radiusTextBox.AutoSize = true;
     radiusTextBox.Top = radiusLabel.Top;
     radiusTextBox.Left = 530;
 
     rxTextBox = new TextBox();
     rxTextBox.Width = 60;
-    rxTextBox.Text = "0.0";
+    rxTextBox.Text = String.Format("{0}", 0.0m); 
     rxTextBox.AutoSize = true;
     rxTextBox.Top = rxLabel.Top;
     rxTextBox.Left = 530;
 
     ryTextBox = new TextBox();
     ryTextBox.Width = 50;
-    ryTextBox.Text = "1.0";
+    ryTextBox.Text = String.Format("{0}", 1.0m);
     ryTextBox.AutoSize = true;
     ryTextBox.Top = ryLabel.Top;
     ryTextBox.Left = 530;
 
     rzTextBox = new TextBox();
     rzTextBox.Width = 50;
-    rzTextBox.Text = "0.0";
+    rzTextBox.Text = String.Format("{0}", 0.0m);
     rzTextBox.AutoSize = true;
     rzTextBox.Top = rzLabel.Top;
     rzTextBox.Left = 530;
